@@ -1,0 +1,26 @@
+.container {
+    margin-top:50px;
+    width: 320px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    p {
+      font-weight: bold;
+    }
+    input {
+      margin: .5em;
+    }
+    button {
+       background-color: blue;
+       border: 2px solid blue;
+       border-radius: 25px;
+       padding: 6px;
+       font-weight: bolder;
+       color: #fff;
+    }
+    form{
+      display:flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }

@@ -1,0 +1,18 @@
+<div class="container">
+  <p>Precisamos conhecer você...</p>
+  <form id="funcionario"  #formss="ngForm">
+    <label for="nome">Qual seu nome?</label>
+    <input type="text" name="nome" id="nome" [(ngModel)]="funcionario.nome"/>
+    
+    <label for="cargo">Qual o seu cargo?</label>
+    <input type="text" name="cargo" id="cargo" [(ngModel)]="funcionario.cargo"/>
+    
+    <label for="cargahoraria">E sua carga horária semanal?</label>
+    <input type="text" name="cargahoraria" id="cargahoraria" [(ngModel)]="funcionario.cargahoraria"/>
+  </form>  
+  <!-- <p>Anexar uma foto</p> -->
+  
+  <button  type="submit" routerLink="/baterponto" (click)="OnSubmit(formss)">Salvar</button>
+  
+  
+</div>

@@ -1,0 +1,8 @@
+<div class="pog">
+<app-card 
+*ngFor="let fun of funcionarios" 
+    [nome]="fun.nome"
+    [cargo]="fun.cargo"
+    [cargahoraria]="fun.cargahoraria"></app-card>
+    <button routerLink="/baterponto">VOLTAR</button>
+</div>

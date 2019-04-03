@@ -1,0 +1,27 @@
+.cabecalho {
+    min-width: 320px;
+    max-width: 380px;
+    background: green;
+    border: .5px solid black;
+    padding:.3em;
+    display: flex;
+    align-items:center;
+    span {
+      font-family:Arial;
+      text-transform: uppercase;
+      font-weight:bold;
+      font-size:20px;
+      margin-left: 1.5em;
+    }
+  }
+  .caixa-menu {
+    display: flex;
+    flex-direction: column;
+    width: 41px;
+      div {
+        width: 35px;
+        height: 4px;
+        background-color: black;
+        margin: 3px;
+      }
+  }

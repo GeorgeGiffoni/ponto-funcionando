@@ -1,0 +1,43 @@
+.container {
+  min-width: 320px;
+  max-width: 380px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    p {
+      margin-left: .5em;
+    }
+    .mensagem {
+      display:flex;
+      align-items:center;
+      margin-left: 2em;
+      p {
+        margin-right: .5em;
+      }
+    }
+    .meuform{
+      label {
+        margin: .2em;
+      }
+      input {
+        margin: .2em;
+      }
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+      button {
+       background-color: blue;
+       border: 2px solid blue;
+       border-radius: 25px;
+       padding: 6px;
+       font-weight: bolder;
+       color: #fff;
+        margin: .8em;
+    }
+    
+    
+    
+  }
